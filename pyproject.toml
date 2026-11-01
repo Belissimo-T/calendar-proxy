@@ -1,0 +1,18 @@
+[project]
+name = "calendar_proxy"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "ical==14.3.1",
+    "requests",
+    "pipifax-io@git+https://github.com/Belissimo-T/pipifax-modules.git/#subdirectory=pipifax-io",
+    "pip==26.2.2",
+    "universal-pathlib>=0.3.10",
+    "fsspec[http]==2026.9.0",
+    "caldav==3.7.0",
+    "fastapi==0.162.0",
+    "uvicorn==0.54.0",
+    "httpx>=0.28.1",
+    "radicale==3.9.0",
+    "pyrefly>=0.60.0",
+]
